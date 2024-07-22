@@ -1,17 +1,25 @@
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import { defineConfig } from 'vite';
+import { defineConfig, InlineConfig, UserConfig } from 'vite';
 
-// https://vitejs.dev/config/
+interface VitestConfigExport extends UserConfig {
+  test: InlineConfig;
+}
+
 export default defineConfig({
 	plugins: [react()],
 	css: {
 		postcss: path.resolve(__dirname, '../../postcss.config.js'),
 	},
 	cacheDir: './.yarn/.vite',
+	test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './vitest.setup.ts',
+  },
 	resolve: {
 		alias: {
 			src: path.resolve(__dirname, './src'),
 		},
 	},
-});
+} as VitestConfigExport);
