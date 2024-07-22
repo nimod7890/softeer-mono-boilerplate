@@ -1,46 +1,55 @@
 {
-  "hash": "a2ad998c",
-  "configHash": "81ce934d",
-  "lockfileHash": "8ee5ab86",
-  "browserHash": "66bc6d0a",
+  "hash": "7fb96f47",
+  "configHash": "ab7461d4",
+  "lockfileHash": "3945626a",
+  "browserHash": "c1fc0041",
   "optimized": {
     "react": {
       "src": "../../../../../../../.yarn/berry/cache/react-npm-18.3.1-af38f3c1ae-10c0.zip/node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "bbb55c82",
-      "needsInterop": true
-    },
-    "react-dom": {
-      "src": "../../../../../.yarn/__virtual__/react-dom-virtual-6d2c8096d6/3/.yarn/berry/cache/react-dom-npm-18.3.1-a805663f38-10c0.zip/node_modules/react-dom/index.js",
-      "file": "react-dom.js",
-      "fileHash": "91a577f1",
+      "fileHash": "188e828b",
       "needsInterop": true
     },
     "react/jsx-dev-runtime": {
       "src": "../../../../../../../.yarn/berry/cache/react-npm-18.3.1-af38f3c1ae-10c0.zip/node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "2326e33e",
+      "fileHash": "d666ec80",
       "needsInterop": true
     },
     "react/jsx-runtime": {
       "src": "../../../../../../../.yarn/berry/cache/react-npm-18.3.1-af38f3c1ae-10c0.zip/node_modules/react/jsx-runtime.js",
       "file": "react_jsx-runtime.js",
-      "fileHash": "00feed3a",
+      "fileHash": "291a081c",
       "needsInterop": true
+    },
+    "@tanstack/react-query": {
+      "src": "../../../../../.yarn/__virtual__/@tanstack-react-query-virtual-9e7b4515c9/3/.yarn/berry/cache/@tanstack-react-query-npm-5.51.11-04a9122bed-10c0.zip/node_modules/@tanstack/react-query/build/modern/index.js",
+      "file": "@tanstack_react-query.js",
+      "fileHash": "0c483b59",
+      "needsInterop": false
     },
     "react-dom/client": {
       "src": "../../../../../.yarn/__virtual__/react-dom-virtual-6d2c8096d6/3/.yarn/berry/cache/react-dom-npm-18.3.1-a805663f38-10c0.zip/node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "87ec84f0",
+      "fileHash": "05864937",
       "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../../../../.yarn/__virtual__/react-router-dom-virtual-7b8a0bb243/3/.yarn/berry/cache/react-router-dom-npm-6.25.1-34c67f5632-10c0.zip/node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "1a86e44f",
+      "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-CNBJW5VM": {
-      "file": "chunk-CNBJW5VM.js"
+    "chunk-4AVUGNG3": {
+      "file": "chunk-4AVUGNG3.js"
     },
-    "chunk-SSLH4VTA": {
-      "file": "chunk-SSLH4VTA.js"
+    "chunk-VWJFRIUG": {
+      "file": "chunk-VWJFRIUG.js"
+    },
+    "chunk-XOTHJUM4": {
+      "file": "chunk-XOTHJUM4.js"
     }
   }
 }

@@ -9,9 +9,6 @@ export default defineConfig({
 		postcss: path.resolve(__dirname, '../../postcss.config.js'),
 	},
 	cacheDir: './.yarn/.vite',
-	optimizeDeps: {
-		include: ['react', 'react-dom'],
-	},
 	resolve: {
 		alias: {
 			src: path.resolve(__dirname, './src'),
