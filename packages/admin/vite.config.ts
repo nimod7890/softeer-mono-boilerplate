@@ -4,9 +4,6 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
 	plugins: [react()],
-	css: {
-		postcss: path.resolve(__dirname, '../../postcss.config.js'),
-	},
 	cacheDir: './.yarn/.vite',
 	resolve: {
 		alias: {

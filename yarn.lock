@@ -1138,7 +1138,6 @@ __metadata:
     class-variance-authority: "npm:^0.7.0"
     clsx: "npm:^2.1.1"
     postcss: "npm:^8.4.39"
-    tailwind-merge: "npm:^2.4.0"
     tailwindcss: "npm:^3.4.6"
     tailwindcss-animate: "npm:^1.0.7"
     vite: "npm:^5.3.4"
@@ -3701,15 +3700,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.414.0":
-  version: 0.414.0
-  resolution: "lucide-react@npm:0.414.0"
-  peerDependencies:
-    react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10c0/280123f5f43cad653aa74f519ad2294fdc82c32028c780e3228c2a92997e987e4708a20527af64731882a9dedc6117f98ba0582946e86751a8f02f8297f8f815
-  languageName: node
-  linkType: hard
-
 "magic-string@npm:^0.30.10":
   version: 0.30.10
   resolution: "magic-string@npm:0.30.10"
@@ -4984,9 +4974,6 @@ __metadata:
     "@types/react-dom": "npm:^18.3.0"
     "@typescript-eslint/eslint-plugin": "npm:^7.16.1"
     "@typescript-eslint/parser": "npm:^7.16.1"
-    autoprefixer: "npm:^10.4.19"
-    class-variance-authority: "npm:^0.7.0"
-    clsx: "npm:^2.1.1"
     eslint: "npm:8.57.0"
     eslint-config-airbnb: "npm:^19.0.4"
     eslint-config-airbnb-typescript: "npm:^18.0.0"
@@ -4999,16 +4986,12 @@ __metadata:
     eslint-plugin-react: "npm:^7.35.0"
     eslint-plugin-react-hooks: "npm:^4.6.2"
     eslint-plugin-react-refresh: "npm:^0.4.7"
-    lucide-react: "npm:^0.414.0"
-    postcss: "npm:^8.4.39"
     prettier: "npm:^3.3.3"
     prettier-plugin-tailwindcss: "npm:^0.6.5"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
     react-router-dom: "npm:^6.25.1"
     tailwind-merge: "npm:^2.4.0"
-    tailwindcss: "npm:^3.4.6"
-    tailwindcss-animate: "npm:^1.0.7"
     typescript: "npm:^5.2.2"
   languageName: unknown
   linkType: soft
@@ -5619,7 +5602,6 @@ __metadata:
     clsx: "npm:^2.1.1"
     jsdom: "npm:^24.1.1"
     postcss: "npm:^8.4.39"
-    tailwind-merge: "npm:^2.4.0"
     tailwindcss: "npm:^3.4.6"
     tailwindcss-animate: "npm:^1.0.7"
     vite: "npm:^5.3.4"

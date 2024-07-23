@@ -9,9 +9,6 @@ interface VitestConfigExport extends UserConfig {
 export default defineConfig({
 	plugins: [react()],
 	server: { port: 3000 },
-	css: {
-		postcss: path.resolve(__dirname, '../../postcss.config.js'),
-	},
 	cacheDir: './.yarn/.vite',
 	test: {
     globals: true,
